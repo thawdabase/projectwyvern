@@ -4,31 +4,33 @@
     <!-- Basic Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your website description here.">
-    <meta name="keywords" content="website, example, template">
-    <meta name="author" content="Your Name">
+    <meta name="description" content="testing website design and layout">
+    <meta name="keywords" content="soon">
+    <meta name="author" content="RSSU">
     <meta name="theme-color" content="#111111">
 
     <!-- Title -->
     <title>THAWDABASE | HOME</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../../system/shared/favicon.png">
+    <link rel="icon" type="image/png" href="../../shared/favicon.png">
 
-    <!-- Device-specific stylesheet -->
-    <script>
-        (function () {
-            const isMobile =
-                /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent) ||
-                window.innerWidth <= 768;
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            width: 100%;
+            min-height: 100%;
+        }
 
-            const css = document.createElement("link");
-            css.rel = "stylesheet";
-            css.href = isMobile ? "mobile.css" : "pc.css";
-
-            document.head.appendChild(css);
-        })();
-    </script>
+        .hero {
+            display: block;
+            width: 100vw;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
 
